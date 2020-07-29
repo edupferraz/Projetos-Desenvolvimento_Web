@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff url(../Imagens/fundo.png) repeat-x left top;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* TOPO */
+#topo{
+    height: 150px;
+    background: url(../Imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../Imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+        /* Barra de Navegação topo */
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    background: url(../Imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos
+{
+    color: #ffffff;
+    background: #de003e;
+    cursor: text;
+}
+
+/* Área cconteudo */
+#conteudo{
+    margin-top: 60px;
+    background: #c7c5c5;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px;
+    float: left;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#primario{
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* Caixa */ 
+.caixa{
+    background: #f3f3f3 url(../Imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+
+}
+
+h2{
+    font-size: 1.2em;
+    background: #294c71;
+    color: #fff;
+    text-align: center;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Barra de navegação Lateral*/
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../Imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+}
+
+/* News */ 
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9;
+    background: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/* Imagens */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalho */
+.destaque h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+/* Lista Notícias */
+#lista li{
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 65px;
+}
+
+#lista li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista li a{
+    text-decoration: none;
+}
+
+#lista li a h3{
+    font-size: 0.9em;
+}
+
+#lista li a p{
+    font-size: 0.7em;
+}
+
+#lista li:hover{
+    background: #eee;
+}
+/* Rodapé */
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div id="container">    <!--Inicio Container-->
+        <header>    <!--Inicio Header-->
+            
+            <div id="logo">
+                <h1>
+                    <a href="index.html">Museu Nacional</a>
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Acervos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>   <!--Fim Header-->
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="">
+                </section>
+                <section id="postagem">
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/w2Ov5jzm3j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.1268069289904!2d-81.56606268544617!3d28.38523770198205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ee634caa5f7%3A0xa71e391fd01cf1a0!2sWalt%20Disney%20World%20Resort!5e0!3m2!1spt-BR!2sbr!4v1577976108235!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+                            </li>
+                            <li>
+                                <a style="font-style: strong;" href="">Veja todos</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem aspernatur sed iusto odio eum fuga. Soluta suscipit eum laborum placeat! Alias, libero! Nam quos debitis repellat explicabo aut at.
+                        </p>
+                        <a href="">Leia Mais!</a>
+                    </article>
+
+                    
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+                <section id="visita">   <!--Inicio Visita-->
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="date" name="data" id="data" required>                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Quantidade de Pessoas</legend>
+                            <label for="qdt">Qdt</label>
+                            <input type="number" name="qdt" id="qdt">
+                        </fieldset>
+                    </form>
+                        <input class="botao" type="submit" value="Verificar Disponibilidade">
+                </section>  <!--Fim Visita-->
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+                    <a href="#">
+                        <img src="imagens/imagem1.jpg" width="93px" height="93px" alt="Descrição-Imagem">
+                    </a>
+                    <a href="#">
+                        <img src="imagens/imagem2.jpg" width="93px" height="93px" alt="Descrição-Imagem">
+                    </a>
+                    <a href="#">
+                        <img src="imagens/imagem3.jpg" width="93px" height="93px" alt="Descrição-Imagem">
+                    </a>
+                    <a href="#">
+                        <img src="imagens/imagem4.jpg" width="93px" height="93px" alt="Descrição-Imagem">
+                    </a>
+                </section>
+            </aside>
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                </p>
+                <p>
+                    2019 <a href="">Museu Nacional</a> - &copy; Todos os direitos reservados
+                </p>
+            </footer>
+        </div>
+        
+    </div>  <!--Fim Container-->
+</body>
+</html>
+
+<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
